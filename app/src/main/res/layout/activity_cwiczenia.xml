@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".Cwiczenia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:gravity="center"
+                android:text="STYLE PŁYWACKIE"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Styl dowolny: Kraul"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="Kraulem płynie się leżąc na brzuchu. Nasza sylwetka musi być wyprostowana niczym struna, palce stóp powinny być obciągnięte, a palce dłoni złączone i proste. W takiej pozycji nasze stopy i dłonie, niczym płetwy i wiosła, będą doskonale zgarniać wodę i skutecznie się od niej odpychać"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/kraul" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:gravity="center"
+                android:text="Obejrzyj jak to się robi!"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Styl klasyczny: Żabka"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="Pływak wykonuje energicznie okrężny ruch kończyn dolnych w bok, w tył i do wewnątrz. Po dynamicznym wyproście stawów kolanowych i biodrowych następuje przywodzenie i złączenie nóg. Tułów wyprostowany, biodra tuż pod powierzchnią wody. Głowa pomiędzy wyprostowanymi ramionami, wzrok skierowany w dół, nogi są rozluźnione."
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                app:srcCompat="@drawable/abka" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:gravity="center"
+
+                android:text="Filmik" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Styl grzbietowy"
+
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="Styl grzbietowy polega na,, odpychaniu się” rękami, dodając do tego nieustanną pracę nóg oraz ruchy tułowia. Jeżeli prawa ręka wykonuje ruch w tył, to całe ciało powinno delikatnie pochylić się właśnie w tę stronę. Podczas pływania stylem grzbietowym technika rąk jest bardzo ważna."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                app:srcCompat="@drawable/grzbiet" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Obejrzyj film!" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Styl motylkowy:Delfin"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="Jest to najtrudniejszy styl pływacki do opanowania. Charakteryzuje się jednoczesnym ruchem nad wodą obu rąk oraz odbijaniem się obiema nogami. Na jeden ruch ramion przypadają dwa odbicia nogami. Ramiona są przenoszone jednocześnie nad powierzchnią wody do przodu, a następnie równocześnie do tyłu."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/delfin" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_42995_200" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Obejrzyj film!" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text='Technika "na pieska"'
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="prosty styl pływacki. Charakteryzuje się on tym, że pływak leży na klatce piersiowej i porusza rękoma i nogami w górę i w dół, tak jak pływają psy i inne zwierzęta. Jest to w zasadzie kłus w wodzie. Jest pierwszym stylem używanym przez starożytnych ludzi."
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_42995_200" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Obejrzyj film!" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

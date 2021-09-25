@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687589635131",
+    "project_id": "swimtrainer-cc9e2",
+    "storage_bucket": "swimtrainer-cc9e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687589635131:android:3355daa713712f5ee2581e",
+        "android_client_info": {
+          "package_name": "com.example.swimtrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687589635131-ntvl3lnaonh41b0toi4pv2esblqm6klq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhZoBi8CmgTf0RPTGgrn3f2U2Ylj0yYlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687589635131-ntvl3lnaonh41b0toi4pv2esblqm6klq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

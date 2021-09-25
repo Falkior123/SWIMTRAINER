@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragrekordy3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="71dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="NAJWAŻNIEJSZE REKORDY ŚWIATA  W PŁYWANIU"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:keepScreenOn="false"
+                android:singleLine="false"
+                android:soundEffectsEnabled="false"
+                android:text="50 m stylem dowolnym"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="50 m stylem dowolnym	20,91		César Cielo	 Brazylia	18 grudnia 2009	Mistrzostwa Brazylii	Brazylia São Paulo" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/cielak" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="@font/roboto_bold"
+
+                android:gravity="center"
+                android:text="100 m stylem grzbietowym	51,85	sz	Ryan Murphy	 Stany Zjednoczone	13 sierpnia 2016	Igrzyska olimpijskie	Brazylia Rio de Janeiro	" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/murphy" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="50 m stylem klasycznym	25,95	pf	Adam Peaty	 Wielka Brytania	25 lipca 2017	Mistrzostwa świata	Węgry Budapeszt" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/adf" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="400 m stylem zmiennym	4:03,84		Michael Phelps	 Stany Zjednoczone	10 sierpnia 2008	Igrzyska olimpijskie	 Pekin" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/phelps_triathlonlife1" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

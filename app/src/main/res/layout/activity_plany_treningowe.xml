@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".PlanyTreningowe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center|top"
+                android:paddingTop="100dp"
+                android:text="Lista planów treningowych"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/plan1"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:background="@color/white"
+                android:ellipsize="none"
+
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Budowanie mięśni ramion i nóg"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/plan2"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+
+                android:background="@color/purple_200"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Poprawa kondycji i techniki"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/plan3"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@color/teal_200"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Podstawy wdechu i wydechu"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/plan4"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@color/purple_500"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Komfortowe pływanie dla zdrowia"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/plan5"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:background="@color/purple_700"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Poprawa uderzeń ramion i efektywności kopnięć"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
